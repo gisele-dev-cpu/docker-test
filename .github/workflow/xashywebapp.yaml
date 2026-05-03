@@ -1,1 +1,10 @@
-name 
+name : build and push docker image to ECR
+
+On:
+  Push:
+    Branches: 
+      - Main
+    workflow_dispatch:
+
+env:
+Aws
